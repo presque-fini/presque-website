@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build --experimental-scope-hoisting --public-url \"/\" \"src/index.html\" && copyfiles -f \"src/browserconfig.xml\" \"src/favicon.ico\" \"src/mstile*\" \"dist/\"",
+    "build": "parcel build --experimental-scope-hoisting --public-url \"./\" \"src/index.html\" && copyfiles -f \"src/browserconfig.xml\" \"src/favicon.ico\" \"src/mstile*\" \"dist/\"",
     "favicon": "real-favicon generate faviconDescription.json faviconData.json \"src/\""
   }
 }
