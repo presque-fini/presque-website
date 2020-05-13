@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Bundler
+.cache/
+dist/
+
+# Real favicon generator
+faviconData.json

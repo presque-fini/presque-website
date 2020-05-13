@@ -1,0 +1,24 @@
+{
+  "name": "presque-website",
+  "version": "0.0.1",
+  "description": "Presque fini's website",
+  "repository": "https://github.com/presque-fini/presque-website",
+  "author": "Gaspacchio <gaspard.bariller@tutanota.com>",
+  "license": "MIT",
+  "dependencies": {
+    "circular-audio-wave": "https://github.com/kelvinau/circular-audio-wave",
+    "purecss": "^2.0.3"
+  },
+  "devDependencies": {
+    "cli-real-favicon": "^0.0.8",
+    "copyfiles": "^2.2.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.5"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build --experimental-scope-hoisting \"src/index.html\" && copyfiles -f \"src/browserconfig.xml\" \"src/favicon.ico\" \"src/mstile*\" \"dist/\"",
+    "favicon": "real-favicon generate faviconDescription.json faviconData.json \"src/\""
+  }
+}
