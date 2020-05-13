@@ -1,3 +1,40 @@
+@import "normalize.css";
+
 .full {
-  background: red;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tragic Marker";
+  font-size: 3em;
+}
+.contained {
+  width: 50%;
+  max-width: 400px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/*== Text utilities ==*/
+.text-center {
+  text-align: center;
+}
+/*== Block utilities ==*/
+.block-center {
+  margin: auto;
+}
+/*== Imports ==*/
+@font-face {
+  font-family: "Tragic Marker";
+  src: url("../assets/fonts/subset-TragicMarker-Regular.woff2") format("woff2"),
+    url("../assets/fonts/subset-TragicMarker-Regular.woff") format("woff"),
+    url("../assets/fonts/subset-TragicMarker-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
