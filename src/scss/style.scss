@@ -1,5 +1,11 @@
 @import "normalize.css";
-
+body {
+  transition: all 0.5s linear;
+}
+.night {
+  color: #fff;
+  background-color: #000;
+}
 .full {
   width: 100%;
   height: 100%;
@@ -15,6 +21,26 @@
 .contained {
   width: 50%;
   max-width: 400px;
+}
+.color-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  background: linear-gradient(90deg, #ffc21b 50%, #1300bd 50%);
+  border-radius: 15px;
+  color: #000;
+  span {
+    display: inline-block;
+    transform: translate(0);
+    transition: all 0.2s linear;
+  }
+}
+.color-toggle.night span {
+  transform: translate(40px);
+  transition: all 0.2s linear;
 }
 /*== Text utilities ==*/
 .text-center {
