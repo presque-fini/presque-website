@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Tragic Marker";
+  font-family: "Tragic Marker", cursive;
   font-size: 3em;
 }
 .contained {
@@ -32,6 +32,7 @@ body {
   background: linear-gradient(90deg, #ffc21b 50%, #1300bd 50%);
   border-radius: 15px;
   color: #000;
+  cursor: pointer;
   span {
     display: inline-block;
     transform: translate(0);
