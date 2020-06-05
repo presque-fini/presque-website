@@ -7,7 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "circular-audio-wave": "https://github.com/kelvinau/circular-audio-wave",
-    "normalize.css": "8.0.1"
+    "normalize.css": "8.0.1",
+    "tabler-icons": "^1.9.0"
   },
   "devDependencies": {
     "cli-real-favicon": "0.0.8",
@@ -19,6 +20,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build --experimental-scope-hoisting --public-url \"./\" \"src/index.html\" && copyfiles -f \"src/browserconfig.xml\" \"src/favicon.ico\" \"src/mstile*\" \"dist/\"",
-    "favicon": "real-favicon generate faviconDescription.json faviconData.json \"src/\""
+    "favicon": "real-favicon generate faviconDescription.json faviconData.json \"src/\"",
+    "style": "prettier --write src/**/*{html,scss,js}"
   }
 }

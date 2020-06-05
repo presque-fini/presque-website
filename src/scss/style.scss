@@ -1,4 +1,7 @@
 @import "normalize.css";
+
+$secondary-color: #dedede;
+
 body {
   transition: all 0.5s linear;
 }
@@ -16,11 +19,14 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Tragic Marker", cursive;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 .contained {
   width: 50%;
   max-width: 400px;
+}
+.subtitle {
+  font-style: italic;
 }
 .color-toggle {
   position: absolute;
@@ -43,13 +49,45 @@ body {
   transform: translate(40px);
   transition: all 0.2s linear;
 }
+.avatars {
+  display: inline-block;
+  background-color: $secondary-color;
+  img {
+    max-width: 45%;
+    height: auto;
+  }
+}
+.links {
+  color: #fff;
+  padding: 15px;
+  a {
+    border-radius: 5px;
+    background: #333;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 15px;
+    margin: 5px 0;
+    line-height: 2.5em;
+  }
+}
+footer {
+  background-color: $secondary-color;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+}
 /*== Text utilities ==*/
 .text-center {
   text-align: center;
 }
 /*== Block utilities ==*/
 .block-center {
+  position: relative;
   margin: auto;
+}
+.contained {
+  max-width: 865px;
 }
 /*== Imports ==*/
 @font-face {

@@ -5303,6 +5303,11 @@ symbol-tree@^3.2.2:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+tabler-icons@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tabler-icons/-/tabler-icons-1.9.0.tgz#421a2a86c3d7c29def27eeead43eabc6b969acbb"
+  integrity sha512-iLiIsMyhUaYaXOjblpNhWik80NzzLC+QQ963snyWVjFoI6RG+WCwWBNm7Byv6A3a+TUfSrmkubGjQD4rzc0jug==
+
 terser@^3.7.3:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-3.17.0.tgz#f88ffbeda0deb5637f9d24b0da66f4e15ab10cb2"
