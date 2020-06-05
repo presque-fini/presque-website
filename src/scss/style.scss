@@ -4,6 +4,7 @@ $secondary-color: #dedede;
 
 body {
   transition: all 0.5s linear;
+  margin: auto;
 }
 .night {
   color: #fff;
@@ -20,10 +21,6 @@ body {
   align-items: center;
   font-family: "Tragic Marker", cursive;
   font-size: 1.5em;
-}
-.contained {
-  width: 50%;
-  max-width: 400px;
 }
 .subtitle {
   font-style: italic;
@@ -76,6 +73,8 @@ footer {
   padding: 15px 0;
   position: absolute;
   bottom: 0;
+  left: 0;
+  width: 100vw;
 }
 /*== Text utilities ==*/
 .text-center {
@@ -87,7 +86,7 @@ footer {
   margin: auto;
 }
 .contained {
-  max-width: 865px;
+  max-width: 400px;
 }
 /*== Imports ==*/
 @font-face {
