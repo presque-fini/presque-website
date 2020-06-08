@@ -88,6 +88,13 @@ footer {
 .contained {
   max-width: 400px;
 }
+/*== Color scheme detection ==*/
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     color: #fff;
+//     background-color: #000;
+//   }
+// }
 /*== Imports ==*/
 @font-face {
   font-family: "Tragic Marker";
