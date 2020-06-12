@@ -3,6 +3,7 @@ const colorToggle = document.querySelector(".color-toggle");
 colorToggle.addEventListener("click", (event) => {
   colorToggle.classList.toggle("night");
   document.querySelector("body").classList.toggle("night");
+  document.querySelector(".carbonbadge").classList.toggle("wcb-d");
 });
 
 matchMedia("(prefers-color-scheme: dark)").addListener((event) => {
