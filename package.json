@@ -13,7 +13,7 @@
     "cli-real-favicon": "0.0.8",
     "copyfiles": "2.3.0",
     "parcel-bundler": "1.12.4",
-    "prettier": "2.0.5",
+    "prettier": "2.2.1",
     "sass": "1.26.10"
   },
   "scripts": {
