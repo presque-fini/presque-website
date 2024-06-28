@@ -10,7 +10,7 @@
     "normalize.css": "8.0.1"
   },
   "devDependencies": {
-    "cli-real-favicon": "0.0.8",
+    "cli-real-favicon": "0.0.9",
     "copyfiles": "2.3.0",
     "parcel-bundler": "1.12.5",
     "prettier": "2.0.5",
