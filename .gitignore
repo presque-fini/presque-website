@@ -2,7 +2,7 @@
 node_modules/
 
 # Bundler
-.cache/
+.parcel-cache/
 dist/
 
 # Real favicon generator
