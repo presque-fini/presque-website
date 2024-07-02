@@ -13,7 +13,6 @@
     "@parcel/packager-raw-url": "2.12.0",
     "@parcel/transformer-sass": "2.12.0",
     "@parcel/transformer-webmanifest": "2.12.0",
-    "cli-real-favicon": "0.0.9",
     "copyfiles": "2.4.1",
     "parcel": "2.12.0",
     "prettier": "3.3.2",
@@ -23,7 +22,6 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build --public-url \"./\" \"src/index.html\" && copyfiles -f \"src/browserconfig.xml\" \"src/favicon.ico\" \"src/mstile*\" \"dist/\"",
-    "favicon": "real-favicon generate faviconDescription.json faviconData.json \"src/\"",
     "style": "prettier --write **/*{html,scss,js,md}"
   }
 }
