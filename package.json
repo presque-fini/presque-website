@@ -10,7 +10,7 @@
     "normalize.css": "8.0.1"
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "2.12.0",
+    "@parcel/packager-raw-url": "2.13.2",
     "@parcel/transformer-sass": "2.12.0",
     "@parcel/transformer-webmanifest": "2.12.0",
     "copyfiles": "2.4.1",
